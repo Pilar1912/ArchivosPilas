@@ -36,4 +36,17 @@ public class Metodos {
 
         return p;
     }
+
+    public void MostrarPila(Stack<Objeto> pila) {
+        if (pila.isEmpty()) {
+            System.out.println("La pila está vacía");
+            return;
+        }
+
+        System.out.println("Contenido de la pila:");
+
+        for (Objeto o : pila) {
+            System.out.println(o.getMarca());
+        }
+    }
 }
