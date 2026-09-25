@@ -11,8 +11,7 @@ public class Objeto {
     private String CedulaPropietario;
     private String NombrePropietario;
 
-    public Objeto(){
-
+    public Objeto() {
     }
 
     public UUID getId() {
@@ -39,6 +38,14 @@ public class Objeto {
         Marca = marca;
     }
 
+    public String getColor() {
+        return Color;
+    }
+
+    public void setColor(String color) {
+        Color = color;
+    }
+
     public Double getValor() {
         return Valor;
     }
@@ -63,14 +70,4 @@ public class Objeto {
         NombrePropietario = nombrePropietario;
     }
 
-    public String getColor() {
-        return Color;
-    }
-
-    public void setColor(String color) {
-        Color = color;
-    }
-
-    
-    
 }
